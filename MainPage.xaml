@@ -7,8 +7,8 @@
 
     <Grid>
         <toolkit:MediaElement x:Name="MyTunes"
-                      Source="embed://osg_E_003_r720P.mp4"
-                      ShouldShowPlaybackControls="True" />
+                       Source="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              ShouldShowPlaybackControls="True" />
         <HorizontalStackLayout BindingContext="{x:Reference MyTunes}">
             <Button Text="Play"
                     HorizontalOptions="Center"
