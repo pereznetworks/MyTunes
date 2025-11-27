@@ -1,20 +1,95 @@
 # MyTunes
 
-An *Extremely Simple* .NET MAUI, Community Toolkit Sample Media Element Application
+An *Extremely Simple* implentation of .NET MAUI Community Toolkit Media Element Sample Application
 
 Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/maui/views/mediaelement) 
 
 [For Complete Fully Featured Sample Applications check here](https://github.com/CommunityToolkit/Maui/tree/main/samples)
 
 ## Very Simply Features
+
     - Play, Pause and Stop an emebeded mp4 video  
     - implementation of the MVVM design pattern using Community Toolkit MVVM
     - add binding of CurrentState to a View
 
 ## EVENTUALLY WILL ADD 
+
     - better ui and layout 
     - ability to add more videos
     - add playlist functionality
+
+
+## Breaking Changes with Current Versions
+
+    - DOTNET 10, Current version of DOTNET MAUI and DOTNET MAUI COMMUNITY TOOLKIT  
+        - compatiblity errors 
+        - if the app runs, debug errors occur when closing app
+
+## Use DOTNET 9 and compatible extensions and packages 
+
+    - DO NOT UPDATE TO DOTNET 10/ DOTNET MAUI 13 
+        - breaking changes 
+        - see release note 
+
+### 1: using VS Code on macOS 
+
+    - clone this repo 
+    - open folder - save workspace as 
+
+### 2: install vscode extensions
+
+    - dotnet install tool 2.3.7
+    - dotnet maui 1.10.18
+    - C# 2.39.22
+    - C# Dev Kit 1.70.3
+
+### 3: nuget packages
+
+- dotnet add package Microsoft.Extensions.Logging.Debug --version 9.0.110 
+
+- dotnet add package Microsoft.Maui.Core --version 9.0.120 
+
+- dotnet add package Microsoft.Maui.Controls --version 9.0.120 
+
+- dotnet add package Microsoft.Maui.Essentials --version 9.0.120  
+
+- dotnet add package CommunityToolkit.Maui --version 12.0.0 
+
+- dotnet add package CommunityToolkit.Maui.MediaElement --version 6.1.3
+
+- sudo xcode-select --switch /Applications/Xcode-26.0.app  
+
+- sudo dotnet workload install maui  
+
+- sudo dotnet workload install maui-android  
+
+- [Install Microsoft Open JDK 21 from](https://learn.microsoft.com/en-us/java/openjdk/download)
+
+- microsoft-jdk-21.0.9-macos-x64.pkg
+
+### 4: in VS Code 
+
+    - configure iOS & macOS - refresh enviroment 
+
+    - configure Android - Select Java SDK 
+
+    - configure Android - Refresh Android enviroment - 
+
+    - now can select the csproj file, run and debug
+
+### 5: run and debug
+
+    - App should run, play, pause and stop 
+    - Android only allows using player controls 
+    - Can close app 
+    - Only build mshs should be 
+
+### Hopefully the only debug output will be :
+
+    - Binding could be compiled to improve runtime performance if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information.
+
+
+    -  This call site is reachable on: 'Android' 21.0 and later. 'AppBuilderExtensions.UseMauiCommunityToolkitMediaElement(MauiAppBuilder, Action<MediaElementOptions>?)' is only supported on: 'Android' 26.0 and later, 'iOS' 15.0 and later, 'maccatalyst' 15.0 and later, 'Tizen' 6.5 and later, 'Windows' 10.0.17763 and later. (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416)
 
 # Legal Notices
 
