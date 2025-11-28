@@ -29,7 +29,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
     - DO NOT UPDATE TO DOTNET 10/ DOTNET MAUI 13 
         - breaking changes 
-        - see release note 
+        - see release notes 
 
 ### 1: using VS Code on macOS 
 
