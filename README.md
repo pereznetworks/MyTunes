@@ -37,6 +37,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 - clone this repo 
 - open folder - save workspace as 
+- remove current DOTNET MAUI, C# and D# Dev Kit extensions
 
 ### 2: install vscode extensions
 
