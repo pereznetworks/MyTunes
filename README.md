@@ -66,9 +66,9 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 - sudo dotnet workload install maui-android  
 
-- [Install Microsoft Open JDK 21 from](https://learn.microsoft.com/en-us/java/openjdk/download)
+- [Download Microsoft Open JDK 21 from](https://learn.microsoft.com/en-us/java/openjdk/download)
 
-- microsoft-jdk-21.0.9-macos-x64.pkg
+- run and install microsoft-jdk-21.0.9-macos-x64.pkg
 
 ### 4: in VS Code 
 
