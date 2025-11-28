@@ -74,7 +74,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 - configure iOS & macOS - refresh enviroment 
 
-- configure Android - Select Java SDK 
+- configure Android - Select Java SDK 21 path 
 
 - configure Android - Refresh Android enviroment
 
