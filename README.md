@@ -18,19 +18,10 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 - ability to add more videos
 - add playlist functionality
 
+## Breaking Changes with Current Versions of DOTNET 10
 
-## Breaking Changes with Current Versions
-
-- DOTNET 10, Current version of DOTNET MAUI and DOTNET MAUI COMMUNITY TOOLKIT  
-- compatiblity errors 
-- if the app runs, debug errors occur when closing app
-
-## Use DOTNET 9 and compatible extensions and packages 
-
-- DO NOT UPDATE TO DOTNET 10/ DOTNET MAUI 13 
-- breaking changes 
-- see release notes 
-
+- DO NOT UPDATE TO DOTNET 10/ DOTNET MAUI 13, nor respective nuget packs
+- breaking changes, see release notes 
 - To build, run and debug, the following steps worked 
 
 ### 1: using VS Code on macOS 
