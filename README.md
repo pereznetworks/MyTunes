@@ -72,20 +72,20 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 ### 4: in VS Code 
 
-    - configure iOS & macOS - refresh enviroment 
+- configure iOS & macOS - refresh enviroment 
 
-    - configure Android - Select Java SDK 
+- configure Android - Select Java SDK 
 
-    - configure Android - Refresh Android enviroment - 
+- configure Android - Refresh Android enviroment
 
-    - now can select the csproj file, run and debug
+- now can select the csproj file, run and debug
 
 ### 5: run and debug
 
-    - App should run, play, pause and stop 
-    - Android only allows using player controls 
-    - Can close app 
-    - Only build mshs should be 
+- App should run, play, pause and stop 
+- Android only allows using player controls 
+- Can close app 
+- Only build mshs should be 
 
 ### Hopefully the only debug output will be :
 
