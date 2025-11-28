@@ -8,40 +8,40 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 ## Very Simply Features
 
-    - Play, Pause and Stop an emebeded mp4 video  
-    - implementation of the MVVM design pattern using Community Toolkit MVVM
-    - add binding of CurrentState to a View
+- Play, Pause and Stop an emebeded mp4 video  
+- implementation of the MVVM design pattern using Community Toolkit MVVM
+- add binding of CurrentState to a View
 
 ## EVENTUALLY WILL ADD 
 
-    - better ui and layout 
-    - ability to add more videos
-    - add playlist functionality
+- better ui and layout 
+- ability to add more videos
+- add playlist functionality
 
 
 ## Breaking Changes with Current Versions
 
-    - DOTNET 10, Current version of DOTNET MAUI and DOTNET MAUI COMMUNITY TOOLKIT  
-        - compatiblity errors 
-        - if the app runs, debug errors occur when closing app
+- DOTNET 10, Current version of DOTNET MAUI and DOTNET MAUI COMMUNITY TOOLKIT  
+- compatiblity errors 
+- if the app runs, debug errors occur when closing app
 
 ## Use DOTNET 9 and compatible extensions and packages 
 
-    - DO NOT UPDATE TO DOTNET 10/ DOTNET MAUI 13 
-        - breaking changes 
-        - see release notes 
+- DO NOT UPDATE TO DOTNET 10/ DOTNET MAUI 13 
+- breaking changes 
+- see release notes 
 
 ### 1: using VS Code on macOS 
 
-    - clone this repo 
-    - open folder - save workspace as 
+- clone this repo 
+- open folder - save workspace as 
 
 ### 2: install vscode extensions
 
-    - dotnet install tool 2.3.7
-    - dotnet maui 1.10.18
-    - C# 2.39.22
-    - C# Dev Kit 1.70.3
+- dotnet install tool 2.3.7
+- dotnet maui 1.10.18
+- C# 2.39.22
+- C# Dev Kit 1.70.3
 
 ### 3: nuget packages
 
