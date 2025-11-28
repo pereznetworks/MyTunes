@@ -31,6 +31,8 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 - breaking changes 
 - see release notes 
 
+- To build, run and debug, the following steps worked 
+
 ### 1: using VS Code on macOS 
 
 - clone this repo 
