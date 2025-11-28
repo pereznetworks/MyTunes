@@ -89,10 +89,10 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 ### Hopefully the only debug output will be :
 
-    - Binding could be compiled to improve runtime performance if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information.
+- Binding could be compiled to improve runtime performance if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information.
 
 
-    -  This call site is reachable on: 'Android' 21.0 and later. 'AppBuilderExtensions.UseMauiCommunityToolkitMediaElement(MauiAppBuilder, Action<MediaElementOptions>?)' is only supported on: 'Android' 26.0 and later, 'iOS' 15.0 and later, 'maccatalyst' 15.0 and later, 'Tizen' 6.5 and later, 'Windows' 10.0.17763 and later. (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416)
+-  This call site is reachable on: 'Android' 21.0 and later. 'AppBuilderExtensions.UseMauiCommunityToolkitMediaElement(MauiAppBuilder, Action<MediaElementOptions>?)' is only supported on: 'Android' 26.0 and later, 'iOS' 15.0 and later, 'maccatalyst' 15.0 and later, 'Tizen' 6.5 and later, 'Windows' 10.0.17763 and later. (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416)
 
 # Legal Notices
 
