@@ -6,7 +6,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 [For Complete Fully Featured Sample Applications check here](https://github.com/CommunityToolkit/Maui/tree/main/samples)
 
-## Very Simply Features
+## Very Simple Features
 
 - Play, Pause and Stop an emebeded mp4 video  
 - implementation of the MVVM design pattern using Community Toolkit MVVM
