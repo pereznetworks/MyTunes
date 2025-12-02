@@ -41,9 +41,11 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 - clone this repo 
 - open folder - save workspace as 
-- remove current DOTNET MAUI, C# and D# Dev Kit extensions and packsm restart exts
+- remove current DOTNET MAUI, C# and D# Dev Kit extensions and packs
+- restart exts
 - for those who want to check for themselves 
-    - the Maui Marketplace, Github Repo or Nuget info page for each pack will show the deps needed, features and rel notes 
+    - the Maui Marketplace, Github Repo or Nuget info page 
+        -  for each ext and pack should show the deps needed, features and rel notes 
 
 ### 2: previous version of vscode extensions
 
