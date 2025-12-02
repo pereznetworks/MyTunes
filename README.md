@@ -33,7 +33,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 - Once build and debug are successful, 
     - Keep previous versions of sdks, exts and packs
     - then can install dotnet 10 sdks, associated exts and packs
-        - the newer versions, not being refenced should not affect the build and debuging
+        - the newer versions, not being referenced, should not affect the build and debuging
 
 **Kavaet: have not been able to this successfully on Visual Studio 2022 or 2026**
 
