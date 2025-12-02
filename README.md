@@ -21,19 +21,33 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 ## Breaking Changes with Current Versions of DOTNET 10
 
-- Eventually will update code for DOTNET 10, but for now ...
-- DO NOT UPDATE TO DOTNET 10/ DOTNET MAUI 13, nor respective nuget packs
-- breaking changes, see release notes 
-- To build, run and debug, the following steps worked 
+- Will update here when 
+    - coding samples and how-to is updated on Maui Community Toolkit docs... 
 
-### 1: using VS Code on macOS 
+
+## Continue with or Reinstall Dotnet 9 and Previous Versions of exts and packs 
+
+- Once installed, verify that TargetFrameworks and Package References 
+    - These must specify versions of each dependency
+
+- Once build and debug are successful, 
+    - Keep previous versions of sdks, exts and packs
+    - then can install dotnet 10 sdks, associated exts and packs
+        - the newer versions, not being refenced should not affect the build and debuging
+
+**Kavaet: have not been able to this successfully on Visual Studio 2022 or 2026**
+
+### 1 : using VS Code (**not** Visual Studio 2022 or 2026)
 
 - clone this repo 
 - open folder - save workspace as 
-- remove current DOTNET MAUI, C# and D# Dev Kit extensions
+- remove current DOTNET MAUI, C# and D# Dev Kit extensions and packsm restart exts
+- for those who want to check for themselves 
+    - the Maui Marketplace, Github Repo or Nuget info page for each pack will show the deps needed, features and rel notes 
 
-### 2: install vscode extensions
+### 2: previous version of vscode extensions
 
+- right click on the extension, choose to install previous versions 
 - dotnet install tool 2.3.7
 - dotnet maui 1.10.18
 - C# 2.39.22
@@ -59,11 +73,13 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 - sudo dotnet workload install maui-android  
 
+### JDK for Andriod 
+
 - [Download Microsoft Open JDK 21 from](https://learn.microsoft.com/en-us/java/openjdk/download)
 
 - run and install microsoft-jdk-21.0.9-macos-x64.pkg
 
-### 4: in VS Code 
+### 4: in VS Code command pallete
 
 - configure iOS & macOS - refresh enviroment 
 
@@ -78,7 +94,6 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 - App should run, play, pause and stop 
 - Android only allows using player controls 
 - Can close app 
-- Only build mshs should be 
 
 ### Hopefully the only debug output will be :
 
