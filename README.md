@@ -49,7 +49,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 ### 2: previous version of vscode extensions
 
-- right click on the extension, choose to install previous versions 
+- right click on the extension, choose to install specific versions 
 - dotnet install tool 2.3.7
 - dotnet maui 1.10.18
 - C# 2.39.22
