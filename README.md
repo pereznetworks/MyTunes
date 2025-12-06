@@ -80,7 +80,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 - if not already 
     - UNINSTALL *ALL* DOTNET SDK using the SDK Installer you used 
-        - I eneded up having to launch VS 2022 and VS 2026 and install all MAUI SDK AND COMPONENTS
+        - I eneded up having to launch VS 2022 and VS 2026 and *uninstall* all MAUI SDK AND COMPONENTS
             - good grief =)
 
 - INSTALL ONLY THE LAST VERSION OF DOTNET 9.0.308
