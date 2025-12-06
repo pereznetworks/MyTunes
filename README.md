@@ -129,6 +129,9 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
         - in Android Studio, make sure to install Android SDK 15, API Level 35, Build Tools version 35.0.0
                 - then configure a Virtual Device that runs these 
 
+    - LAST BUT CRUCIAL FOR WINDOWS PLATFORM
+        - sudo dotnet workload install maui-windows 
+
 ### JDK for Andriod 
 
 - [Download Microsoft Open JDK 21 from](https://learn.microsoft.com/en-us/java/openjdk/download)
