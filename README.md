@@ -7,7 +7,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 [For Complete Fully Featured Sample Applications check here](https://github.com/CommunityToolkit/Maui/tree/main/samples)
 
 ## BREAKING CHANGES WITH DOTNET 10 
-- will update code once, Microsoft releases tutorial docs for DOTNET 10 
+- will update code once, Microsoft releases tutorial docs for DOTNET 10 & COMMUNITY TOOLKIT
 
 ## NEW ##
 - Code Changes for Windows 11 platform 
