@@ -27,7 +27,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 ## using VS Code, continue with or Reinstall Dotnet 9 and Previous Versions of exts and packs 
 
-- Once installed, verify that TargetFrameworks and Package References 
+- Verify that TargetFrameworks and Package References 
     - These must specify versions of each dependency
 
 - Once build and debug are successful, 
