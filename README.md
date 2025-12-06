@@ -7,7 +7,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 [For Complete Fully Featured Sample Applications check here](https://github.com/CommunityToolkit/Maui/tree/main/samples)
 
 ## BREAKING CHANGES WITH DOTNET 10 
-    - will update code once, Microsoft releases tutorial docs for DOTNET 10 
+- will update code once, Microsoft releases tutorial docs for DOTNET 10 
 
 ## NEW ##
 - Code Changes for Windows 11 platform 
@@ -35,8 +35,8 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
     - then can install dotnet 10 sdks, associated exts and packs
         - the newer versions, not being referenced, should not affect the build and debuging
 
-- **Kavaet: have not been able to this successfully in any version Visual Studio 2022 or 2026**
-    - **these editions only support the current versions of sdks, and nuget packs, (i.e. DOTNET 10)**
+- *Kavaet: have not been able to do this successfully in any version Visual Studio 2022 or 2026*
+    - *these editions only support the current versions of sdks, and nuget packs, (i.e. DOTNET 10)*
 
 ### Code Changes for Windows 11 platform *(not tested in previous Windows versions)*
 
