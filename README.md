@@ -6,11 +6,18 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 [For Complete Fully Featured Sample Applications check here](https://github.com/CommunityToolkit/Maui/tree/main/samples)
 
+## BREAKING CHANGES WITH DOTNET 10 
+    - will update code once, Microsoft releases tutorial docs for DOTNET 10 
+
+## NEW ##
+- Code Changes for Windows 11 platform 
+    - not tested in previous Windows versions
+    - have not tested these changes using DOTNET 10
+    - not tested in VS CODE on a MAC
+
 ## Very Simple Features
 
 - Play, Pause and Stop an emebeded mp4 video  
-- implementation of the MVVM design pattern using Community Toolkit MVVM
-- add binding of CurrentState to a View
 
 ## EVENTUALLY WILL ADD 
 
@@ -18,14 +25,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 - ability to add more videos
 - add playlist functionality
 
-
-## Breaking Changes with Current Versions of DOTNET 10
-
-- Will update here when 
-    - coding samples and how-to is updated on Maui Community Toolkit docs... 
-
-
-## Continue with or Reinstall Dotnet 9 and Previous Versions of exts and packs 
+## using VS Code, continue with or Reinstall Dotnet 9 and Previous Versions of exts and packs 
 
 - Once installed, verify that TargetFrameworks and Package References 
     - These must specify versions of each dependency
@@ -35,45 +35,99 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
     - then can install dotnet 10 sdks, associated exts and packs
         - the newer versions, not being referenced, should not affect the build and debuging
 
-**Kavaet: have not been able to this successfully on Visual Studio 2022 or 2026**
+- **Kavaet: have not been able to this successfully in any version Visual Studio 2022 or 2026**
+    - **these editions only support the current versions of sdks, and nuget packs, (i.e. DOTNET 10)**
 
-### 1 : using VS Code (**not** Visual Studio 2022 or 2026)
+### Code Changes for Windows 11 platform *(not tested in previous Windows versions)*
+
+- the following were not needed on macOS for sucessful run and debug in Android, iOS and macCatalyst platforms 
+    - may have to test for Windows platform, so these only are used for Windows
+
+- MyTunes.csproj
+    - line 5
+        - verify the correct Windows platform is specified
+        - for my Windows 11 test machine the Target Framework need to be *net9.0-windows10.0.19041.0*
+    - lines 37 & 38
+        - SupportedOSPlatformVersion & TargetPlatformMinVersion can be lower such as *10.0.17763.0* 
+
+    - line 36
+        - suported version for Android can be set to 26, 
+            - but this is not a make or break, just gets rid of anyouying debug error 
+        - However, in Android Studio, 
+            - make sure to install Android SDK 15, API Level 35, Build Tools version 35.0.0
+                - then configure a Virtual Device that runs these 
+
+- App.xaml line 4
+    - add assembly reference to namespace 
+        - xmlns:sf="clr-namespace:CommunityToolkit.Maui.Core.Views;assembly=CommunityToolkit.Maui.Core"
+
+- MauiProgram.cs lines 20-23 
+    - add handler to register CommunityToolkit.Mauui.View.MediaElement is 
+
+- make sure to save your changes =)
+
+- should not have other build or runtime errors, with this code =)
+
+### 1 : using VS Code (**not** Visual Studio 2022 or 2026) the following steps 
 
 - clone this repo 
-- open folder - save workspace as 
-- remove current DOTNET MAUI, C# and D# Dev Kit extensions and packs
-- restart exts
-- for those who want to check for themselves 
-    - the Maui Marketplace, Github Repo or Nuget info page 
-        -  for each ext and pack should show the deps needed, features and rel notes 
+- VS Code, open folder - save workspace as - just in case 
+    - so VS Code will show the project under the Solution Explorer  
+- remove *ALL* DOTNET MAUI, C# and D# Dev Kit extensions and packs
+    - just in case 
+- close workspace
+- close VS Code
 
-### 2: previous version of vscode extensions
+- if not already 
+    - UNINSTALL *ALL* DOTNET SDK using the SDK Installer you used 
+        - I eneded up having to launch VS 2022 and VS 2026 and install all MAUI SDK AND COMPONENTS
+            - good grief =)
 
-- right click on the extension, choose to install specific versions 
+- INSTALL ONLY THE LAST VERSION OF DOTNET 9.0.308
+    - This project is specific to Media Element
+        - if using other Communnity Toolkit or Maui subsets, you can check the deps needed 
+            - check the Maui Marketplace, Github Repo or Nuget info page 
+                -  for each ext and pack, should show the deps needed, features and rel notes 
+
+### 2: previous version of VS Code extensions
+
+- restart VS Code 
+- open MyTunes Workspace
+- in the extentsion sidebar
+    - right click on the extension, choose to install specific versions 
 - dotnet install tool 2.3.7
 - dotnet maui 1.10.18
 - C# 2.39.22
 - C# Dev Kit 1.70.3
+- restart exts 
+
 
 ### 3: nuget packages
 
-- dotnet add package Microsoft.Extensions.Logging.Debug --version 9.0.110 
+- in VS Code, with MyTunes workspace open, in a terminal 
 
-- dotnet add package Microsoft.Maui.Core --version 9.0.120 
+    - dotnet add package Microsoft.Extensions.Logging.Debug --version 9.0.110 
 
-- dotnet add package Microsoft.Maui.Controls --version 9.0.120 
+    - dotnet add package Microsoft.Maui.Core --version 9.0.120 
 
-- dotnet add package Microsoft.Maui.Essentials --version 9.0.120  
+    - dotnet add package Microsoft.Maui.Controls --version 9.0.120 
 
-- dotnet add package CommunityToolkit.Maui --version 12.0.0 
+    - dotnet add package Microsoft.Maui.Essentials --version 9.0.120  
 
-- dotnet add package CommunityToolkit.Maui.MediaElement --version 6.1.3
+    - dotnet add package CommunityToolkit.Maui --version 12.0.0 
 
-- sudo xcode-select --switch /Applications/Xcode-26.0.app  
+    - dotnet add package CommunityToolkit.Maui.MediaElement --version 6.1.3
 
-- sudo dotnet workload install maui  
+    - if using a Mac
+        - sudo xcode-select --switch /Applications/Xcode-26.0.app  
 
-- sudo dotnet workload install maui-android  
+    - sudo dotnet workload install maui  
+
+    - sudo dotnet workload install maui-android  
+
+        - supported version for Android can be set to 26
+        - in Android Studio, make sure to install Android SDK 15, API Level 35, Build Tools version 35.0.0
+                - then configure a Virtual Device that runs these 
 
 ### JDK for Andriod 
 
@@ -83,26 +137,27 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 ### 4: in VS Code command pallete
 
-- configure iOS & macOS - refresh enviroment 
+- close and open VS CODE and My Tunes Workspace
 
-- configure Android - Select Java SDK 21 path 
+- using the Command Pallete
 
-- configure Android - Refresh Android enviroment
+    - configure iOS & macOS - refresh enviroment 
+
+    - configure Android - Select Java SDK 21 path 
+
+    - configure Android - Refresh Android enviroment
 
 - now can select the csproj file, run and debug
+
 
 ### 5: run and debug
 
 - App should run, play, pause and stop 
 - Android only allows using player controls 
-- Can close app 
 
-### Hopefully the only debug output will be :
+### There will be quite a few of these Debug warnings :
 
 - Binding could be compiled to improve runtime performance if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information.
-
-
--  This call site is reachable on: 'Android' 21.0 and later. 'AppBuilderExtensions.UseMauiCommunityToolkitMediaElement(MauiAppBuilder, Action<MediaElementOptions>?)' is only supported on: 'Android' 26.0 and later, 'iOS' 15.0 and later, 'maccatalyst' 15.0 and later, 'Tizen' 6.5 and later, 'Windows' 10.0.17763 and later. (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416)
 
 # Legal Notices
 
