@@ -33,7 +33,11 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 ### There will be a few of these Debug warnings :
 
-- Binding could be compiled to improve runtime performance if x:DataType is specified. See https://learn.microsoft.com/dotnet/maui/fundamentals/data-binding/compiled-bindings for more information.
+## Release for DOTNET 9 
+- this branch currently includes 
+    - how to, list of deps, exts and packs to build MyTunes for Dotnet 9 
+    - how to install Dotnet 10 sdk and keep Dotnet 9 also 
+    - for simplicity will be separating into separate documentation 
 
 # Legal Notices
 
