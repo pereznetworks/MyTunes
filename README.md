@@ -14,12 +14,13 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 - master: release verison, *_will be releasing for dotnet 10 soon_*
 - [development for dotnet 10 ](https://github.com/pereznetworks/MyTunes/blob/92f6a72e3ad0513be785913e50f9d0ed7ff91863/README.md)
-- [version for dotnet 9](https://github.com/pereznetworks/MyTunes/blob/d35974d95b79cfeaecd86473193161359673866e/README.md) 
+- [release for dotnet 9](https://github.com/pereznetworks/MyTunes/blob/d35974d95b79cfeaecd86473193161359673866e/README.md) 
 
-## Branch Version for DOTNET 9 
-- currently includes how to, deps, exts and packs to build MyTunes for Dotnet 9 
-- and install Dotnet 10 sdk and keep Dotnet 9 also 
-- will be separating multi-sdk env and MyTunes dotnet 9 into separate documentaion 
+## Release for DOTNET 9 
+- this branch currently includes 
+    - how to, list of deps, exts and packs to build MyTunes for Dotnet 9 
+    - how to install Dotnet 10 sdk and keep Dotnet 9 also 
+    - for simplicity will be separating into separate documentation 
 
 # Legal Notices
 
