@@ -12,8 +12,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 ## Branches
 
-- master: release verison, *_will be releasing for dotnet 10 soon_*
-- [development for dotnet 10 ](https://github.com/pereznetworks/MyTunes/blob/92f6a72e3ad0513be785913e50f9d0ed7ff91863/README.md)
+- [development for dotnet 10, release pending ](https://github.com/pereznetworks/MyTunes/blob/92f6a72e3ad0513be785913e50f9d0ed7ff91863/README.md)
 - [release for dotnet 9](https://github.com/pereznetworks/MyTunes/blob/d35974d95b79cfeaecd86473193161359673866e/README.md) 
 
 ## Release for DOTNET 9 
