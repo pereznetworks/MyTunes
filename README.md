@@ -31,8 +31,6 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 		  - CommunityToolkit.Maui.MediaElement" Version="7.0"
 - make sure to save your changes =)
 
-### There will be a few of these Debug warnings :
-
 ## Release for DOTNET 9 
 - this branch currently includes 
     - how to, list of deps, exts and packs to build MyTunes for Dotnet 9 
