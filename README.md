@@ -6,14 +6,32 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 [For Complete Fully Featured Sample Applications check here](https://github.com/CommunityToolkit/Maui/tree/main/samples)
 
+
+## NEW ##
+- Code Changes for DotNet 10 
+
 ## Very Simple Features
 
 - Play, Pause and Stop an emebeded mp4 video  
 
-## Branches
+## Code Changes
 
-- [development for dotnet 10, release pending ](https://github.com/pereznetworks/MyTunes/blob/92f6a72e3ad0513be785913e50f9d0ed7ff91863/README.md)
-- [release for dotnet 9](https://github.com/pereznetworks/MyTunes/blob/d35974d95b79cfeaecd86473193161359673866e/README.md) 
+- start with cod base from version for dotnet 9 
+
+- MyTunes.csproj
+    - line 4, 5 - target frameworks
+        - replace net9.0 with net10.0
+    - lines 60-65 - item group
+		- using "dotnet add package", upgrade to current versions of nuget packs 
+		  - Microsoft.Extensions.Logging.Debug" Version="10.0.1"
+	      - Microsoft.Maui.Core" Version="10.0.11" 
+	 	  - Microsoft.Maui.Controls" Version="10.0.11"
+		  - Microsoft.Maui.Essentials" Version="10.0.11"
+          - CommunityToolkit.Maui" Version="13.0.0"
+		  - CommunityToolkit.Maui.MediaElement" Version="7.0"
+- make sure to save your changes =)
+
+### There will be a few of these Debug warnings :
 
 ## Release for DOTNET 9 
 - this branch currently includes 
