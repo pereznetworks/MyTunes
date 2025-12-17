@@ -14,9 +14,17 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 - Play, Pause and Stop an emebeded mp4 video  
 
-## Code Changes
+## Setting up 
 
-- start with cod base from version for dotnet 9 
+- download and install dotnet 10 sdk 
+
+- clone this repo or start with code base from release for dotnet 9 
+
+- open VS Code, open project 
+    - should be prompted to install latest dotnet10 maui 
+        - go for it!
+
+## changes from latest release for dotnet9
 
 - MyTunes.csproj
     - line 4, 5 - target frameworks
@@ -29,7 +37,6 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 		  - Microsoft.Maui.Essentials" Version="10.0.11"
           - CommunityToolkit.Maui" Version="13.0.0"
 		  - CommunityToolkit.Maui.MediaElement" Version="7.0"
-- make sure to save your changes =)
 
 ## Release for DOTNET 9 
 - this branch currently includes 
