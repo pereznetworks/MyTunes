@@ -19,7 +19,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 - download and install dotnet 10 sdk 
 
-- clone this repo or start with code base from release for dotnet 9 
+- clone this repo 
 
 - open VS Code, open project 
     - should be prompted to install latest dotnet10 maui 
