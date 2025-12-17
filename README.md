@@ -8,6 +8,7 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 
 ## NEW ##
+
 - Code Changes for DotNet 10 
 
 ## Very Simple Features
