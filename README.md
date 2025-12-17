@@ -19,11 +19,16 @@ Based on the [Microsoft .NET MAUI Community Toolkit Media Element Documentation]
 
 - download and install dotnet 10 sdk 
 
+- download and install open jdk 21.0.9
+
 - clone this repo 
 
 - open VS Code, open project 
     - should be prompted to install latest dotnet10 maui 
-        - go for it!
+    - for Android, 
+        - will need to set path for jdk, 
+        - verify corret android sdk, build tools and vm are set and ready 
+    - should be able to build, run and debug
 
 ## changes from latest release for dotnet9
 
