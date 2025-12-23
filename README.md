@@ -2,7 +2,7 @@
 
 An *Extremely Simple* implentation of .NET MAUI Community Toolkit Media Element Sample Application
 
-THIS CODE IS PART OF LEARNING ENVIRONMENT. NO GAURANTEE OF ANY KIND IS MADE OR IMPLIED.
+THIS REPO IS PART OF LEARNING ENVIRONMENT. NO GAURANTEE OF ANY KIND IS MADE OR IMPLIED.
 
 The following code is modified from the original sample available the [Microsoft .NET MAUI Community Toolkit Media Element Documentation](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/maui/views/mediaelement) 
 
