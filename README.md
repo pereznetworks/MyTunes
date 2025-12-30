@@ -15,7 +15,9 @@ The following code is modified from the original sample available the [Microsoft
 
 ## Very Simple Features
 
-- Play, Pause and Stop an emebeded mp4 video  
+- Uses device's playback controls 
+- MedialElement controls commented out 
+- uncomment and rebuild to test MedialElement
 
 ## Setting up 
 
