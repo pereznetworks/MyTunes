@@ -16,8 +16,10 @@ The following code is modified from the original sample available the [Microsoft
 ## Very Simple Features
 
 - Uses device's playback controls 
+    - auto play of embeded mp4 
+     
 - MedialElement controls commented out 
-- uncomment and rebuild to test MedialElement
+    - uncomment and rebuild to test MedialElement
 
 ## Setting up 
 
