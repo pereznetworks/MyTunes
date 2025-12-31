@@ -4,9 +4,9 @@ An *Extremely Simple* implentation of .NET MAUI Community Toolkit Media Element 
 
 THIS REPO IS PART OF LEARNING ENVIRONMENT. NO GAURANTEE OF ANY KIND IS MADE OR IMPLIED.
 
-The following code is modified from the original sample available the [Microsoft .NET MAUI Community Toolkit Media Element Documentation](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/maui/views/mediaelement) 
+- [Microsoft .NET MAUI Community Toolkit Media Element Documentation](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/maui/views/mediaelement) 
 
-[For Complete Fully Featured Sample Applications check here](https://github.com/CommunityToolkit/Maui/tree/main/samples)
+- [For Complete Fully Featured Sample Applications check here](https://github.com/CommunityToolkit/Maui/tree/main/samples)
 
 
 ## NEW ##
@@ -17,7 +17,7 @@ The following code is modified from the original sample available the [Microsoft
 
 - Uses device's playback controls 
     - auto play of embeded mp4 
-     
+
 - MedialElement controls commented out 
     - uncomment and rebuild to test MedialElement
 
