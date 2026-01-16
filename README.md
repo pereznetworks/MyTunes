@@ -19,7 +19,7 @@ THIS REPO IS PART OF LEARNING ENVIRONMENT. NO GAURANTEE OF ANY KIND IS MADE OR I
     - auto play of embeded mp4 
 
 - MedialElement controls commented out 
-    - uncomment and rebuild to test MedialElement
+    - uncomment and rebuild to test MediaElement
 
 ## Setting up 
 
